@@ -1,0 +1,104 @@
+body
+{
+    margin:0;
+    text-align: center;
+    background-color: #B6CEF6;
+}
+.aligner
+{
+    display:grid;
+    place-items: center;
+}
+.guessedSoFar
+{
+    color:#224B75;
+    font-size:60px;
+    margin:10px;
+}
+.hanger
+{
+    margin:0px;
+}
+.letterBox
+{
+    width:300px;
+    text-align: left;
+}
+.letterBox p
+{
+    color:#224B75;
+    margin:0px 6px;
+}
+.letterList
+{
+    border-style:solid;
+    border-color: #224B75;
+    border-width:5px;
+    display:flex;
+    justify-content: center;
+    align-content: flex-start;
+    width:300px;
+    height:140px;
+    flex-wrap:wrap;
+}
+.letterList p
+{
+    display:inline;
+    margin: 10px;
+    height:20px;
+}
+h1
+{
+    color:#224B75;
+}
+.letterList .correct
+{
+    color:green;
+}
+.letterList .incorrect
+{
+    color:red;
+}
+.guessCounter
+{
+    color:#224B75;
+}
+.restartButton
+{
+    color:#224B75;
+    border-color:#224B75;
+    margin:20px;
+    width:200px;
+    height:80px;
+    border-radius: 5px;
+    background-color: #B6CEF6;
+    font-size:20px;
+}
+.restartButton:hover
+{
+    filter: brightness(90%);
+}
+.restartButton:active
+{
+    filter:brightness(70%);
+}
+.hiddenButton
+{
+    display:none;
+}
+.warning
+{
+    width: 300px;
+    height: 300px;
+}
+.warningAnimation
+{
+    background-color: lightcoral;
+    width:290px;
+    color:white;
+    text-align: left;
+    margin-left:10px;
+    padding:10px;
+    transition: all 1s 1.5s;
+    
+}
